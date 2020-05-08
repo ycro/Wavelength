@@ -14,7 +14,7 @@ exports.servertoken = 'sbrnYt7FtYzf';
 /**
  * The server IP - Being used to show avatars in profile.
  */
-exports.serverIp = "auranation02.glitch.me";
+exports.serverIp = "auranationss.herokuapp.com";
 /**
  * The server address - the address at which Pokemon Showdown should be hosting
  *   This should be kept set to 0.0.0.0 unless you know what you're doing.
