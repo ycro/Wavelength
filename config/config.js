@@ -9,8 +9,8 @@ exports.port = 8080;
  * The server Namr - Being used to rename custom-plugins.
  */
 exports.serverName = "Aura Nation";
-exports.serverid = "auranation";
-exports.servertoken = "/GUmm/CzQFZN";
+exports.serverid = 'auranation';
+exports.servertoken = 'sbrnYt7FtYzf';
 /**
  * The server IP - Being used to show avatars in profile.
  */
