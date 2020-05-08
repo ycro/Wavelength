@@ -10,7 +10,7 @@ exports.port = 8080;
  */
 exports.serverName = "Aura Nation";
 exports.serverid = 'auranation';
-exports.servertoken = 'sbrnYt7FtYzf';
+exports.servertoken = 'De7rjIw5y4Tj';
 /**
  * The server IP - Being used to show avatars in profile.
  */
