@@ -1,0 +1,2313 @@
+/**
+ * Custom CSS declarations
+ *
+ * If your server is registered, you can create a file named `custom.css`
+ * in the `config` directory and populate it with CSS rules to override the
+ * normal client styles, when the client is connected to your server. In
+ * other words, you can use this facility to introduce a custom theme for
+ * your server.
+ */
+/**
+ * Custom CSS declarations
+ *
+ * If your server is registered, you can create a file named `custom.css`
+ * in the `config` directory and populate it with CSS rules to override the
+ * normal client styles, when the client is connected to your server. In
+ * other word
+/**
+ * Custom CSS declarations
+ *
+ * If your server is registered, you can create a file named `custom.css`
+ * in the `config` directory and populate it with CSS rules to override the
+ * normal client styles, when the client is connected to your server. In
+ * other words, you can use this facility to introduce a custom theme for
+ * your server.
+ 
+ ***************************
+ *    Credits Css          *
+ *          by             *
+ * Roselix and Ia♫♪Planets *
+ **************************/
+
+body {
+  background: url("https://imgur.com/YiIsTvT.png") !important;
+  background-size: cover !important;
+}
+
+.ps-room.ps-room-light {
+  background: rgba(0, 0, 0, 0);
+  border-color: #52d4ff;
+}
+
+.ps-room.ps-room-light.scrollable {
+  background: rgba(0, 0, 0, 0.6)
+    url("http://static.pokemonpets.com/images/monsters-images-300-300/350-Milotic.png")
+    right no-repeat;
+  color: #FFF;
+  text-shadow: none;
+}
+
+.ps-room.ps-room-light.scrollable {
+  background: rgba(46, 162, 227, 0.4);
+}
+
+.ps-room.ps-room-light.scrollable h3 {
+  color: #87ceeb;
+  text-shadow: none;
+}
+
+.ps-room.ps-room-light.scrollable p {
+  color: #031012;
+  text-shadow: none;
+}
+.menugroup {
+  background: rgba(158, 227, 255, 0.4);
+  color: #00BFFF;
+  border: 1px solid #0174DF;
+  text-shadow: none;
+}
+
+.teamselect:disabled strong {
+  color: #00BFFF;
+}
+.menugroup .select:disabled {
+  background: #9ee3ff !important;
+  color: #00BFFF !important;
+  border: #00BFFF solid 1px !important;
+  text-shadow: none;
+  box-shadow: none !important;
+}
+
+.menugroup .select:disabled:hover {
+  background: #F0E68C !important;
+  color: #FFD700 !important;
+  border: #FFD700 solid 1px !important;
+  text-shadow: none;
+}
+
+.menugroup button {
+  background: #9ee3ff;
+  color: #00BFFF !important;
+  border: #00BFFF solid 1px !important;
+  text-shadow: none;
+  box-shadow: none !important;
+}
+
+.menugroup button:hover {
+  background: #F0E68C;
+  color: #FFD700 !important;
+  border: #FFD700 solid 1px !important;
+  text-shadow: none;
+}
+
+.menugroup .button.mainmenu2 {
+  background: #9ee3ff;
+  color: #00BFFF !important;
+  border: #00BFFF solid 1px !important;
+  text-shadow: none;
+  box-shadow: none !important;
+}
+
+.menugroup .button.mainmenu2:hover {
+  background: #F0E68C !important;
+  color: #FFD700 !important;
+  border: #FFD700 solid 1px !important;
+  text-shadow: none;
+}
+
+.menugroup .button.mainmenu4 {
+  background: #9ee3ff;
+  color: #00BFFF !important;
+  border: #00BFFF solid 1px !important;
+  text-shadow: none;
+  box-shadow: none !important;
+}
+
+.menugroup .button.mainmenu4:hover {
+  background: #F0E68C !important;
+  color: #FFD700 !important;
+  border: #FFD700 solid 1px !important;
+  text-shadow: none;
+}
+
+.menugroup .button.mainmenu1 {
+  background: #9ee3ff;
+  color: #00BFFF !important;
+  border: solid 1px #00BFFF !important;
+  text-shadow: none;
+  box-shadow: none !important;
+}
+
+.menugroup .button.mainmenu1:hover {
+  background: #F0E68C !important;
+  color: #FFD700 !important;
+  border: #FFD700 solid 1px !important;
+  text-shadow: none;
+}
+
+.menugroup .button.mainmenu3 {
+  background: #9ee3ff;
+  color: #00BFFF !important;
+  border: solid 1px #00BFFF !important;
+  text-shadow: none;
+  box-shadow: none !important;
+}
+
+.menugroup .button.mainmenu3:hover {
+  background: #F0E68C !important;
+  color: #FFD700 !important;
+  border: #FFD700 solid 1px !important;
+  text-shadow: none;
+}
+
+.menugroup .button.mainmenu5 {
+  background: #9ee3ff;
+  color: #00BFFF !important;
+  border: solid 1px #00BFFF !important;
+  text-shadow: none;
+  box-shadow: none !important;
+}
+
+.menugroup .button.mainmenu5:hover {
+  background: #F0E68C !important;
+  color: #FFD700 !important;
+  border: #FFD700 solid 1px !important;
+  text-shadow: none;
+}
+
+.chat.mine {
+  background: rgba(0, 0, 0, 0);
+}
+
+.broadcast-blue {
+  text-align: center;
+  background: #52d4ff;
+  border: 1px solid #52d4ff;
+  padding: 10px;
+  color: black;
+}
+
+.broadcast-red {
+  text-align: center;
+  background: rgba(255, 51, 68, 0.7);
+  border: 1px solid rgba(174, 16, 29, 1);
+  padding: 10px;
+  color: black;
+}
+
+.broadcast-green {
+  text-align: center;
+  background: #30c11a;
+  border: 1px solid #30c11a;
+  padding: 10px;
+  color: black;
+}
+
+.ps-overlay {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+/*******************
+  * General CSS ~end *
+  *******************/
+
+/*************
+  * Header CSS *
+  *************/
+.fa-user {
+  display: none;
+}
+
+.maintabbarbottom {
+  background: #A9E2F3;
+  border: #58ACFA solid 1px;
+}
+
+.header {
+  background: rgba(46, 162, 227, 0.4) url("https://i.imgur.com/UBXSCIm.png")
+    no-repeat;
+}
+
+.header .logo {
+  opacity: 0;
+}
+
+.tabbar a.button {
+  background: #9ee3ff !important;
+  color: #00BFFF !important;
+  border: #00BFFF solid 1px !important;
+  text-shadow: none;
+}
+
+.tabbar a.button:hover {
+  background: #5fd0fd !important;
+  color: #00BFFF !important;
+  border: solid 1px #00BFFF !important;
+  text-shadow: none;
+}
+
+.tabbar a.button.cur {
+  background: #5fd0fd !important;
+  color: #00BFFF !important;
+  border: solid 1px #00BFFF !important;
+  text-shadow: none;
+}
+
+.tabbar a.button.subtle-notifying {
+  color: #00BFFF;
+}
+
+.tabbar a.button.notifying {
+  background: #F0E68C !important;
+  color: #FFD700 !important;
+  border: #FFD700 solid 1px !important;
+  text-shadow: none;
+}
+
+.tabbar a.button.notifying:hover {
+  background: #e6d647 !important;
+  color: #FFD700 !important;
+  border: #FFD700 solid 1px !important;
+  text-shadow: none;
+}
+
+.tabbar .closebutton:hover {
+  color: #00BFFF;
+}
+
+.userbar button {
+  background: #9ee3ff !important;
+  color: #00BFFF !important;
+  border: #00BFFF solid 1px !important;
+  text-shadow: none;
+  box-shadow: none !important;
+}
+
+.userbar button:hover {
+  background: #59caf8 !important;
+  color: #00BFFF !important;
+  border: solid 1px #00BFFF !important;
+  text-shadow: none;
+  box-shadow: none !important;
+}
+/******************
+  * Header CSS ~end *
+  ******************/
+
+/*****************
+  * Roomlist CSS *
+  ***************/
+.ps-room-light.scrollable {
+  background: rgba(158, 227, 255, 0.4);
+  color: #FFD700 !important;
+}
+
+.ps-room.ps-room-light.scrollable .button {
+  background: #9ee3ff !important;
+  color: #00BFFF !important;
+  border: #00BFFF solid 1px !important;
+  text-shadow: none;
+  text-align: center;
+  box-shadow: none;
+}
+
+.ps-room.ps-room-light.scrollable .button:hover {
+  background: #F0E68C !important;
+  color: #FFD700 !important;
+  border: solid 1px #FFD700 !important;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.roomlist h2 {
+  color: #00BFFF;
+}
+
+.roomlist a.ilink {
+  background: #9ee3ff !important;
+  color: #00BFFF !important;
+  border: #00BFFF solid 1px !important;
+  text-shadow: none;
+  text-align: center;
+}
+
+.roomlist a.ilink:hover {
+  background: #F0E68C !important;
+  color: #FFD700 !important;
+  border: solid 1px #FFD700 !important;
+  text-shadow: none;
+  text-align: center;
+}
+.roomlist .picon {
+  background: url("https://pldh.net/media/pokecons_action/350.gif") no-repeat !important;
+}
+
+.roomcounters .picon {
+  background: url("https://pldh.net/media/pokecons_action/350.gif") no-repeat !important;
+}
+
+/********************
+  * Roomlist CSS ~end *
+  ********************/
+
+/***********
+  * Chat CSS *
+  ***********/
+
+.userlist {
+  background: rgba(46, 162, 227, 0.4);
+  border-color: #52d4ff;
+  color: #52d4ff;
+}
+
+.userlist li {
+  background: rgba(255, 255, 255, 0.65);
+  border-color: #52d4ff;
+}
+
+.userlist li em.group {
+  color: #52d4ff;
+}
+
+.userlist li button:hover,
+.userlist-minimized .userlist-count:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.infobox {
+  border-color: #52d4ff;
+}
+
+.chat-log .chat small {
+  color: #52d4ff;
+}
+
+.chat-log .chat.mine.chat small {
+  color: #036f93;
+}
+
+.chat.highlighted {
+  background: rgba(46, 162, 227, 0.4);
+}
+
+.chat-log-add {
+  border-color: #52d4ff;
+  background: rgba(46, 162, 227, 0.4);
+}
+
+.chat-log-add .textbox {
+  border-color: #52d4ff;
+}
+
+.chatbox label {
+  text-shadow: 0px 0px 2px #52d4ff;
+}
+
+/****************
+  * Chat CSS ~end *
+  ****************/
+
+/*******************
+  * Tournaments CSS *
+  ******************/
+
+.tournament-title {
+  background: rgba(46, 162, 227, 0.4);
+  text-shadow: 0px -1px 0px #52d4ff;
+  color: #0280aa;
+}
+
+.tournament-status,
+.tournament-toggle {
+  background: rgba(255, 255, 255, 0.65);
+  border-color: #52d4ff;
+  text-shadow: none;
+  color: #52d4ff;
+}
+
+.tournament-tools {
+  border-color: #52d4ff;
+  background: rgba(51, 98, 81, 0.6);
+}
+
+.tournament-tools .select {
+  border-color: #52d4ff;
+  background: #52d4ff;
+  color: #D9FCEF;
+  text-shadow: 0px -1px 0px #52d4ff;
+}
+
+.tournament-tools .select:hover {
+  background: #52d4ff;
+}
+
+.tournament-tools .select:disabled,
+.tournament-tools .select:disabled:hover {
+  background: rgba(51, 98, 81, 0.45);
+  color: #007aa3 !important;
+  text-shadow: none !important;
+  border-color: #52d4ff !important;
+}
+
+.tournament-tools button {
+  border-color: #52d4ff;
+  background: #52d4ff;
+  color: #87ceeb;
+  text-shadow: 0px -1px 0px #52d4ff;
+}
+
+.tournament-tools button:hover {
+  background: #52d4ff;
+}
+
+.tournament-wrapper,
+.tournament-box {
+  border-color: #52d4ff;
+}
+
+.tournament-box {
+  background: url("http://i.imgur.com/1bgW0dP.jpg");
+}
+
+/***********************
+  * Tournaments CSS ~end *
+  ***********************/
+
+/**********************
+  * Mainmenuwrapper CSS *
+  **********************/
+
+.menugroup .button {
+  background: #78d8f8 !important;
+  border: 0px #336251 solid !important;
+}
+
+.pm-window h3 {
+  border-color: #78d8f8;
+  background: rgba(46, 174, 238, 0.5)
+    url("https://pldh.net/media/pokecons_action/350.gif") bottom right no-repeat;
+  background-position: 200px;
+  color: #cef1ff;
+  text-shadow: 0px -1px 0px #78d8f8;
+}
+
+.pm-window h3:hover {
+  background: rgba(46, 174, 238, 0.5)
+    url("https://pldh.net/media/pokecons_action/350.gif") bottom right no-repeat;
+  background-position: 200px;
+  color: #CBEBE0;
+}
+
+.pm-window h3 small {
+  color: #B2DBCD;
+}
+
+.pm-window.focused h3,
+.pm-window.focused h3:hover {
+  border-color: #336251;
+  background: rgba(46, 174, 238, 0.5)
+    url("https://pldh.net/media/pokecons_action/350.gif") bottom right no-repeat;
+  background-position: 200px;
+  color: #cef1ff;
+  text-shadow: 0px -1px 0px #78d8f8;
+}
+
+.pm-window h3:hover .minimizebutton,
+.pm-window h3 .closebutton,
+.pm-window h3 .minimizebutton {
+  color: #D3F5E8;
+}
+
+.pm-window h3 .closebutton:hover {
+  color: #F7A4A4;
+}
+
+.pm-window h3 .minimizebutton:hover {
+  color: #F7D0A4;
+}
+
+.pm-window h3 .closebutton:hover + .minimizebutton {
+  color: #D3F5E8 !important;
+}
+
+.message-pm {
+  color: #46806A;
+}
+
+.pm-window h3.pm-notifying {
+  border-color: #78d8f8;
+  background: #5bba98;
+  color: #cef1ff;
+  text-shadow: none;
+}
+
+.pm-window h3.pm-notifying:hover {
+  background: #5bba98;
+}
+
+.pm-window h3.pm-notifying small {
+  color: #A4578F;
+}
+
+.pm-window h3.pm-notifying .closebutton,
+.pm-window h3.pm-notifying .minimizebutton {
+  color: #8c1010;
+}
+
+.pm-window h3.pm-notifying .closebutton:hover {
+  color: #AF3B3B;
+}
+
+.pm-window h3.pm-notifying .minimizebutton:hover {
+  color: #AF813B;
+}
+
+.pm-window h3.pm-notifying .closebutton:hover + .minimizebutton {
+  color: #8c1010 !important;
+}
+
+.pm-log,
+.pm-window.focused .pm-log {
+  border-color: #78d8f8;
+}
+
+.challenge {
+  border: #78d8f8;
+  background: #5bba98;
+  color: #cef1ff;
+  text-shadow: none;
+}
+
+.challenge .select {
+  border-color: #78d8f8;
+  background: #78d8f8;
+  color: #cef1ff;
+  text-shadow: 0px 0px 2px #FCE8F1;
+}
+
+.challenge .select:hover {
+  background: #78d8f8;
+}
+
+.challenge .select:disabled {
+  background: #78d8f8;
+}
+
+.challenge .select.preselected,
+.challenge .select.preselected:disabled {
+  color: #cef1ff;
+}
+
+.challenge .buttonbar button {
+  border: 1px solid #78d8f8;
+  background: #78d8f8;
+  color: #cef1ff;
+  text-shadow: 0px 0px 2px #cef1ff;
+  padding: 2px 5px;
+}
+
+.challenge .buttonbar button:hover {
+  background: #78d8f8;
+}
+
+.pm-log-add {
+  border-color: #78d8f8;
+  background: rgba(46, 174, 238, 0.5);
+}
+
+.pm-window.focused .pm-log-add {
+  border-color: #78d8f8;
+  background: rgba(46, 174, 238, 0.5);
+}
+
+.pm-log-add .textbox {
+  border-color: #78d8f8;
+}
+
+.mainmenufooter a {
+  color: #FFE1B3;
+}
+
+.mainmenufooter a:hover {
+  color: #F2D19C;
+}
+
+.mainmenufooter {
+  color: #F2D19C;
+}
+
+.pm-window-Sapphireserver .chatbox {
+  display: none;
+}
+
+.pm-window-sapphirenews .chatbox {
+  display: none;
+}
+
+/***************************
+  * Mainmenuwrapper CSS ~end *
+  ***************************/
+
+/************
+  * Popup CSS *
+  ************/
+
+.ps-popup {
+  background: #cef1ff;
+  border-color: #6ad1fa;
+}
+.ps-popup {
+  background: #EEE url("http://i.imgur.com/LtiKsQl.png") no-repeat bottom right;
+  box-shadow: 1px 1px 0px #FFF inset, -1px -1px 0px #DDD inset,
+    2px 2px 3px rgba(0, 0, 0, 0.2);
+  border-color: #000;
+}
+
+.ps-popup a,
+.credits h2,
+.credits ul {
+  color: #00bfff;
+}
+
+.ps-popup a:hover {
+  color: #00bfff;
+}
+
+.ps-popup a.ilink.yours {
+  color: #00bfff;
+}
+
+.ps-popup a.ilink.yours:hover {
+  color: #04171A;
+}
+
+.ps-popup .buttonbar button {
+  background: #9ee3ff;
+  border: 1px solid #00BFFF;
+  padding: 2px 5px;
+  color: #00BFFF;
+  text-shadow: 0px -1px 0px #00BFFF;
+}
+
+.ps-popup .buttonbar button:hover {
+  background: #F0E68C;
+  border: 1px solid #FFD700;
+  padding: 2px 5px;
+  color: #FFD700;
+  text-shadow: 0px -1px 0px #FFD700;
+}
+
+.popupmenu h3 {
+  color: #00a3da;
+  text-shadow: 0px 0px 0px #96BFB8;
+}
+
+.popupmenu button.sel {
+  border-color: #00a3da;
+}
+
+.popupmenu button:hover,
+.popupmenu button.sel:hover {
+  border-color: #65d7fd;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+a.subtle,
+a.subtle:hover {
+  color: #000;
+}
+
+.avatarlist button {
+  border-color: #00a3da;
+}
+
+.avatarlist button:hover {
+  border-color: #00a3da;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.effect-volume em,
+.music-volume em {
+  color: #00a3da;
+}
+
+.ps-popup hr {
+  border: none;
+  border-bottom: 1px solid #062529;
+}
+
+/*****************
+  * Popup CSS ~end *
+  *****************/
+
+/*************
+  * Ladder CSS *
+  *************/
+
+.ladder th {
+  background: #CD9FC4;
+  color: #803C6F;
+  text-shadow: 0px 0px 2px #FCE8F1;
+}
+
+.ladder td {
+  background: rgba(255, 246, 250, 0.75);
+  color: #803C6F;
+  text-shadow: 0px 0px 2px #FCE8F1;
+}
+
+.ladder td:hover {
+  background: rgba(255, 246, 250, 0.95);
+}
+
+.ladder table,
+.ladder td,
+.ladder th {
+  border-color: #803C6F;
+}
+
+/******************
+  * Ladder CSS ~end *
+  ******************/
+
+/******************
+  * Teambuilder CSS *
+  ******************/
+
+.teamlist .team {
+  background: #9ee3ff !important;
+  color: #00BFFF !important;
+  border: #00BFFF solid 1px !important;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.teamlist .team:hover {
+  background: #F0E68C !important;
+  color: #FFD700 !important;
+  border: solid 1px #FFD700 !important;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.teamchartbox {
+  border: none;
+}
+
+.setchart-nickname {
+  background: #9ee3ff;
+  border: double 2px #00BFFF;
+}
+
+.setchart-nickname label {
+  color: #00BFFF;
+  text-shadow: none;
+}
+
+.setchart {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+}
+
+.setchart input {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+}
+
+.setdetails {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+}
+
+.setstats {
+  background: #9ee3ff;
+  color: #FFD700;
+  border: solid 1px #FFD700;
+}
+
+.statform input.inputform {
+  background: #9ee3ff;
+  color: #FFD700;
+  border: solid 1px #FFD700;
+}
+
+.setchart input:hover {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+}
+
+.setdetails:hover {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+}
+
+.setstats:hover {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+}
+
+.statform input.inputform:hover {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+}
+
+.setchart .setdetails label {
+  color: #00BFFF;
+  text-shadow: none;
+}
+
+.setchart .setstats label {
+  color: #00BFFF;
+  text-shadow: none;
+}
+
+.setchart-nickname input {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: none;
+}
+.setchart-nickname input:hover {
+  border: none;
+}
+
+.teamnameedit:hover {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+  text-shadow: none;
+}
+
+.teamnameedit {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+  text-shadow: none;
+}
+
+.teambuilder-results {
+  background: rgba(158, 227, 255, 0.4);
+}
+
+.teambuilder-results h3,
+.teambuilder-results .utilichart h3 {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+  text-shadow: none;
+}
+
+.setchart input:focus,
+.setchart-nickname input:focus,
+.statform input.inputform:focus {
+  background-color: #9ee3ff;
+  color: #00BFFF;
+  border: none;
+}
+
+.setchart-nickname input:hover {
+  background-color: #9ee3ff;
+  color: #00BFFF;
+  border: none;
+}
+
+.statform p.suggested button {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: double 2px #00BFFF;
+  text-shadow: none;
+}
+
+.statform p.suggested button:hover {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+  text-shadow: none;
+}
+
+.jslider .jslider-label {
+  color: #00BFFF;
+  opacity: 1;
+}
+
+.jslider .jslider-value {
+  background: #9ee3ff;
+  color: #00BFFF;
+  border: solid 1px #00BFFF;
+  text-shadow: none;
+}
+
+keygen,
+select {
+  background: #9ee3ff;
+  color: #00BFFF;
+}
+/***********************
+  * Teambuilder CSS ~end *
+  ***********************/
+
+/*****************************/
+/* Battle CSS */
+/****************************/
+
+.battle-log h2 {
+  background: transparent;
+  border: 1px solid #336251;
+  border-right: none;
+  color: #336251;
+  box-shadow: 0px 0px 3px #336251;
+}
+
+.battle-log .chat small {
+  color: #000 !important;
+}
+
+.battle-log .chat em {
+  color: #000;
+}
+
+.battle-controls .whatdo {
+  color: #BBB;
+}
+
+.message-throttle-notice,
+.message-error {
+  color: #336251;
+}
+
+.ps-room .battle-controls {
+  position: absolute;
+  top: 440px;
+  left: 0;
+  width: 640px;
+}
+
+.battle {
+  position: absolute;
+  text-align: left;
+  top: 00px;
+  left: -1px;
+  border: 0px solid #AAAAAA;
+  background: #CFD5DA;
+  width: 640px;
+  height: 360px;
+  overflow: hidden;
+  font-family: Verdana, sans-serif;
+  font-size: 10pt;
+}
+
+.backdrop {
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  top: -90px;
+  left: -50px;
+  opacity: 1 !important;
+}
+
+.backdrop:after {
+  display: inline-block;
+  content: "";
+  background: url(
+      http://i.imgur.com/hUGjkvk.png
+    )no-repeatfixed;
+  position: absolute;
+  background-position: 00px -19px;
+  width: 700px;
+  height: 500px;
+  opacity: 1 !important;
+}
+
+.battle a {
+  color: #2277FF;
+}
+
+.battle a:hover {
+  color: #1155AA;
+}
+
+.spacer {
+  margin-top: 0.5em;
+}
+
+.playbutton {
+  position: absolute;
+  display: block;
+  top: 160px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 100;
+}
+
+.playbutton button {
+  font-size: 20pt;
+}
+
+.background {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.teambar {
+  position: absolute;
+  top: 0;
+  left: 92px;
+}
+
+.teambar button {
+  display: block;
+  background: url("http://i.imgur.com/ZkaJTWl.png");
+  color: #aaa;
+  border: 1px solid #AAAAAA;
+  padding: 0;
+  margin: -1px 2px 0 0;
+  height: 42px;
+  float: left;
+  width: 88px;
+  cursor: pointer;
+  white-space: pre;
+  font-size: 8pt;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.teambar button .pokemonicon {
+  margin: 0 auto;
+}
+
+.teambar button:hover {
+  background: #DCDCDC;
+  border-color: #757575;
+}
+
+.teambar button:active {
+  background: #CCCCCC;
+  border-color: #373737;
+}
+
+.teambar button:disabled,
+.teambar button:disabled:hover,
+.teambar button:disabled:active {
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.trainersprite {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.switchmenu button {
+  border-color: #336251;
+  background: #336251;
+  box-shadow: none;
+  color: #EEE;
+  text-shadow: 0px 0px 1px #000;
+}
+
+.switchmenu button:hover {
+  border-color: #336251;
+  background: #171616;
+  box-shadow: none;
+  color: #EEE;
+  text-shadow: 0px 0px 1px #000;
+}
+
+.switchmenu button.disabled,
+.switchmenu button:disabled {
+  border-color: #171616 !important;
+  background: #171616 !important;
+  box-shadow: none !important;
+  color: #EEE !important;
+  text-shadow: 0px 0px 1px #000 !important;
+}
+
+.movemenu button.type-Electric {
+  background: #336251;
+  border-color: #f2da09;
+  color: #f2da09;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Electric:hover {
+  background: #336251;
+  border-color: #f2da09;
+  color: #f2da09;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Grass {
+  background: #336251;
+  border-color: #0e8e23;
+  color: #0e8e23;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Grass:hover {
+  background: #336251;
+  border-color: #0e8e23;
+  color: #0e8e23;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Dragon {
+  background: #336251;
+  border-color: #3d06c9;
+  color: #3d06c9;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Dragon:hover {
+  background: #336251;
+  border-color: #3d06c9;
+  color: #3d06c9;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Water {
+  background: #336251;
+  border-color: #40a4df;
+  color: #40a4df;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Water:hover {
+  background: #336251;
+  border-color: #40a4df;
+  color: #40a4df;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Normal {
+  background: #336251;
+  border-color: #DBDBDB;
+  color: #DBDBDB;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Normal:hover {
+  background: #336251;
+  border-color: #DBDBDB;
+  color: #DBDBDB;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Ghost {
+  background: #336251;
+  border-color: #b095d8;
+  color: #b095d8;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Ghost:hover {
+  background: #336251;
+  border-color: #b095d8;
+  color: #b095d8;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Steel {
+  background: #336251;
+  border-color: #828282;
+  color: #828282;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Steel:hover {
+  background: #336251;
+  border-color: #828282;
+  color: #828282;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Fairy {
+  background: #336251;
+  border-color: #d602bd;
+  color: #d602bd;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Fairy:hover {
+  background: #336251;
+  border-color: #d602bd;
+  color: #d602bd;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Dark {
+  background: #336251;
+  border-color: #161616;
+  color: #161616;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Dark:hover {
+  background: #336251;
+  border-color: #161616;
+  color: #161616;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Fire {
+  background: #336251;
+  border-color: #cc6200;
+  color: #cc6200;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Fire:hover {
+  background: #336251;
+  border-color: #cc6200;
+  color: #cc6200;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Fighting {
+  background: #336251;
+  border-color: #890d05;
+  color: #890d05;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Fighting:hover {
+  background: #336251;
+  border-color: #890d05;
+  color: #890d05;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Poison {
+  background: #336251;
+  border-color: #4f1e4f;
+  color: #4f1e4f;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Poison:hover {
+  background: #336251;
+  border-color: #4f1e4f;
+  color: #4f1e4f;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Rock {
+  background: #336251;
+  border-color: #DBCC90;
+  color: #DBCC90;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Rock:hover {
+  background: #336251;
+  border-color: #DBCC90;
+  color: #DBCC90;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Ground {
+  background: #336251;
+  border-color: #a08e45;
+  color: #a08e45;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Ground:hover {
+  background: #336251;
+  border-color: #a08e45;
+  color: #a08e45;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Ice {
+  background: #336251;
+  border-color: #7af9f9;
+  color: #7af9f9;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Ice:hover {
+  background: #336251;
+  border-color: #7af9f9;
+  color: #7af9f9;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Flying {
+  background: #336251;
+  border-color: #9e93c4;
+  color: #9e93c4;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Flying:hover {
+  background: #336251;
+  border-color: #9e93c4;
+  color: #9e93c4;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Psychic {
+  background: #336251;
+  border-color: #e5a0b5;
+  color: #e5a0b5;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Psychic:hover {
+  background: #336251;
+  border-color: #e5a0b5;
+  color: #e5a0b5;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Bug {
+  background: #336251;
+  border-color: #7e8730;
+  color: #7e8730;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Bug:hover {
+  background: #336251;
+  border-color: #7e8730;
+  color: #7e8730;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.movemenu button.type-Bug small {
+  color: #7e8730;
+}
+
+.movemenu button.type-Psychic small {
+  color: #e5a0b5;
+}
+
+.movemenu button.type-Flying small {
+  color: #9e93c4;
+}
+
+.movemenu button.type-Ice small {
+  color: #7af9f9;
+}
+
+.movemenu button.type-Ground small {
+  color: #a08e45;
+}
+
+.movemenu button.type-Rock small {
+  color: #DBCC90;
+}
+
+.movemenu button.type-Poison small {
+  color: #4f1e4f;
+}
+
+.movemenu button.type-Fighting small {
+  color: #890d05;
+}
+
+.movemenu button.type-Fire small {
+  color: #cc6200;
+}
+
+.movemenu button.type-Dark small {
+  color: #161616;
+}
+
+.movemenu button.type-Fairy small {
+  color: #d602bd;
+}
+
+.movemenu button.type-Steel small {
+  color: #828282;
+}
+
+.movemenu button.type-Ghost small {
+  color: #b095d8;
+}
+
+.movemenu button.type-Grass small {
+  color: #0e8e23;
+}
+
+.movemenu button.type-Normal small {
+  color: #DBDBDB;
+}
+
+.movemenu button.type-Electric small {
+  color: #f2da09;
+}
+
+.movemenu button.type-Water small {
+  color: #40a4df;
+}
+
+.movemenu button.type-Dragon small {
+  color: #3d06c9;
+}
+
+.movemenu button:disabled {
+  background: #336251;
+  border-color: #171616;
+  color: #DDD;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.messagebar {
+  background: #333;
+}
+
+.battle-log .chat strong {
+  color: #336251;
+}
+
+em[style="color:#445566;display:block;"] {
+  color: #336251 !important;
+}
+
+.battle-log .rated strong {
+  color: #FFF;
+  background: none repeat scroll 0% 0% #336251;
+  padding: 1px 4px;
+  border-radius: 4px;
+}
+
+#tooltipwrapper {
+  z-index: 500000;
+}
+
+/*****************************/
+/** Battle CSS **/
+/*****************************/
+
+.dark body {
+  background: url("http://i.imgur.com/htV4q8c.jpg") bottom right !important;
+}
+
+.dark .ps-popup {
+  background: #222323;
+  border-color: #11484F;
+}
+.dark .ps-popup {
+  background: #222323 url("http://imgur.com/00qHAxp.png") no-repeat bottom right;
+  box-shadow: 1px 1px 0px #FFF inset, -1px -1px 0px #DDD inset,
+    2px 2px 3px rgba(0, 0, 0, 0.2);
+  border-color: #000;
+}
+
+.dark .ps-popup a,
+.credits h2,
+.credits ul {
+  color: #104E8B;
+}
+
+.dark .ps-popup a:hover {
+  color: #104E8B;
+}
+
+.dark .ps-popup a.ilink.yours {
+  color: #104E8B;
+}
+
+.dark .ps-popup a.ilink.yours:hover {
+  color: #04171A;
+}
+
+.dark .popupmenu h3 {
+  color: #11484F;
+  text-shadow: 0px 0px 0px #96BFB8;
+}
+
+.dark .popupmenu button.sel {
+  border-color: #11484F;
+}
+
+.dark .popupmenu button:hover,
+.popupmenu button.sel:hover {
+  border-color: #11484F;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.dark a.subtle,
+a.subtle:hover {
+  color: #000;
+}
+
+.dark .avatarlist button {
+  border-color: #11484F;
+}
+
+.dark .avatarlist button:hover {
+  border-color: #11484F;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dark .effect-volume em,
+.music-volume em {
+  color: #062529;
+}
+
+.dark .ps-popup hr {
+  border: none;
+  border-bottom: 1px solid #062529;
+}
+
+.dark .ps-room.ps-room-light {
+  background: rgba(0, 0, 0, 0);
+  border-color: #11484F;
+}
+
+.dark .ps-room.ps-room-light.scrollable {
+  background: rgba(0, 0, 0, 0.6)
+    url("https://vignette4.wikia.nocookie.net/nintendo/images/f/f3/Kyogre.png/revision/latest?cb=20151023005015&path-prefix=en")
+    right no-repeat;
+  color: #FFF;
+  text-shadow: none;
+}
+
+.dark .ps-room.ps-room-light.scrollable {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dark .ps-room.ps-room-light.scrollable h3 {
+  color: #BBCCC9;
+  text-shadow: none;
+}
+
+.dark .ps-room.ps-room-light.scrollable p {
+  color: #031012;
+  text-shadow: none;
+}
+
+.dark .ps-room.ps-room-light.scrollable .button {
+  background: #BBCCC9;
+  border: 1px solid #11484F;
+  color: #11484F;
+  text-shadow: none;
+}
+
+.dark .ps-room.ps-room-light.scrollable .button:hover {
+  background: #CBE1DD;
+  border-color: #0C2D32;
+}
+
+.dark .menugroup .button {
+  background: #201E1E !important;
+  border: 0px #201E1E solid !important;
+}
+
+.dark .header {
+  background: rgba(0, 0, 0, 0.5) url("https://i.imgur.com/UBXSCIm.png")
+    no-repeat;
+}
+
+.dark .header .logo {
+  opacity: 0;
+}
+
+.dark .userlist {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: #191970;
+  color: #191970;
+}
+
+.dark .userlist li {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: #191970;
+}
+
+.dark .userlist li em.group {
+  color: #191970;
+}
+
+.dark .userlist li button:hover,
+.userlist-minimized .userlist-count:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dark .pm-window h3 {
+  border-color: #201E1E;
+  background: rgba(0, 0, 0, 0.5)
+    url("https://pldh.net/media/pokecons_action/382.gif") bottom right no-repeat;
+  background-position: 200px;
+  color: #87ceeb;
+  text-shadow: 0px -1px 0px #201E1E;
+}
+
+.dark .pm-window h3:hover {
+  background: rgba(0, 0, 0, 0.5)
+    url("https://pldh.net/media/pokecons_action/382.gif") bottom right no-repeat;
+  background-position: 200px;
+  color: #CBEBE0;
+}
+
+.dark .pm-window h3 small {
+  color: #B2DBCD;
+}
+
+.dark .pm-window.focused h3,
+.dark .pm-window.focused h3:hover {
+  border-color: #201E1E;
+  background: rgba(0, 0, 0, 0.5)
+    url("https://pldh.net/media/pokecons_action/382.gif") bottom right no-repeat;
+  background-position: 200px;
+  color: #E5FFF6;
+  text-shadow: 0px -1px 0px #201E1E;
+}
+
+.dark .pm-window h3:hover .minimizebutton,
+.pm-window h3 .closebutton,
+.pm-window h3 .minimizebutton {
+  color: #D3F5E8;
+}
+
+.dark .pm-window h3 .closebutton:hover {
+  color: #F7A4A4;
+}
+
+.dark .pm-window h3 .minimizebutton:hover {
+  color: #F7D0A4;
+}
+
+.dark .pm-window h3 .closebutton:hover + .minimizebutton {
+  color: #D3F5E8 !important;
+}
+
+.dark .message-pm {
+  color: #46806A;
+}
+
+.dark .pm-window h3.pm-notifying {
+  border-color: #336251;
+  background: #5bba98;
+  color: #E5FFF6;
+  text-shadow: none;
+}
+
+.dark .pm-window h3.pm-notifying:hover {
+  background: #5bba98;
+}
+
+.dark .pm-window h3.pm-notifying small {
+  color: #A4578F;
+}
+
+.dark .pm-window h3.pm-notifying .closebutton,
+.pm-window h3.pm-notifying .minimizebutton {
+  color: #8c1010;
+}
+
+.dark .pm-window h3.pm-notifying .closebutton:hover {
+  color: #AF3B3B;
+}
+
+.dark .pm-window h3.pm-notifying .minimizebutton:hover {
+  color: #AF813B;
+}
+
+.dark .pm-window h3.pm-notifying .closebutton:hover + .minimizebutton {
+  color: #8c1010 !important;
+}
+
+.dark .pm-log-add .textbox {
+  border-color: #336251;
+}
+
+.dark .chat-log .chat small {
+  color: #11484F;
+}
+
+.dark .chat-log .chat.mine.chat small {
+  color: #0A292E;
+}
+
+.dark .chat.highlighted {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dark .chat-log-add {
+  border-color: #201E1E;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dark .chat-log-add .textbox {
+  border-color: #201E1E;
+}
+
+.dark .switchmenu button {
+  border-color: #222323;
+  background: #222323;
+  box-shadow: none;
+  color: #EEE;
+  text-shadow: 0px 0px 1px #000;
+}
+
+.dark .switchmenu button:hover {
+  border-color: #222323;
+  background: #171616;
+  box-shadow: none;
+  color: #EEE;
+  text-shadow: 0px 0px 1px #000;
+}
+
+.dark .switchmenu button.disabled,
+.switchmenu button:disabled {
+  border-color: #171616 !important;
+  background: #171616 !important;
+  box-shadow: none !important;
+  color: #EEE !important;
+  text-shadow: 0px 0px 1px #000 !important;
+}
+
+.dark .movemenu button.type-Electric {
+  background: #222323;
+  border-color: #f2da09;
+  color: #f2da09;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Electric:hover {
+  background: #222323;
+  border-color: #f2da09;
+  color: #f2da09;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Grass {
+  background: #222323;
+  border-color: #0e8e23;
+  color: #0e8e23;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Grass:hover {
+  background: #222323;
+  border-color: #0e8e23;
+  color: #0e8e23;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Dragon {
+  background: #222323;
+  border-color: #3d06c9;
+  color: #3d06c9;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Dragon:hover {
+  background: #222323;
+  border-color: #3d06c9;
+  color: #3d06c9;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Water {
+  background: #222323;
+  border-color: #40a4df;
+  color: #40a4df;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Water:hover {
+  background: #222323;
+  border-color: #40a4df;
+  color: #40a4df;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Normal {
+  background: #222323;
+  border-color: #DBDBDB;
+  color: #DBDBDB;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Normal:hover {
+  background: #222323;
+  border-color: #DBDBDB;
+  color: #DBDBDB;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Ghost {
+  background: #222323;
+  border-color: #b095d8;
+  color: #b095d8;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Ghost:hover {
+  background: #222323;
+  border-color: #b095d8;
+  color: #b095d8;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Steel {
+  background: #222323;
+  border-color: #828282;
+  color: #828282;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Steel:hover {
+  background: #222323;
+  border-color: #828282;
+  color: #828282;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Fairy {
+  background: #222323;
+  border-color: #d602bd;
+  color: #d602bd;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Fairy:hover {
+  background: #222323;
+  border-color: #d602bd;
+  color: #d602bd;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Dark {
+  background: #222323;
+  border-color: #161616;
+  color: #161616;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Dark:hover {
+  background: #222323;
+  border-color: #161616;
+  color: #161616;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Fire {
+  background: #222323;
+  border-color: #cc6200;
+  color: #cc6200;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Fire:hover {
+  background: #222323;
+  border-color: #cc6200;
+  color: #cc6200;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Fighting {
+  background: #222323;
+  border-color: #890d05;
+  color: #890d05;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Fighting:hover {
+  background: #222323;
+  border-color: #890d05;
+  color: #890d05;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Poison {
+  background: #222323;
+  border-color: #4f1e4f;
+  color: #4f1e4f;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Poison:hover {
+  background: #222323;
+  border-color: #4f1e4f;
+  color: #4f1e4f;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Rock {
+  background: #222323;
+  border-color: #DBCC90;
+  color: #DBCC90;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Rock:hover {
+  background: #222323;
+  border-color: #DBCC90;
+  color: #DBCC90;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Ground {
+  background: #222323;
+  border-color: #a08e45;
+  color: #a08e45;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Ground:hover {
+  background: #222323;
+  border-color: #a08e45;
+  color: #a08e45;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Ice {
+  background: #222323;
+  border-color: #7af9f9;
+  color: #7af9f9;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Ice:hover {
+  background: #222323;
+  border-color: #7af9f9;
+  color: #7af9f9;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Flying {
+  background: #222323;
+  border-color: #9e93c4;
+  color: #9e93c4;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Flying:hover {
+  background: #222323;
+  border-color: #9e93c4;
+  color: #9e93c4;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Psychic {
+  background: #222323;
+  border-color: #e5a0b5;
+  color: #e5a0b5;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Psychic:hover {
+  background: #222323;
+  border-color: #e5a0b5;
+  color: #e5a0b5;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Bug {
+  background: #222323;
+  border-color: #7e8730;
+  color: #7e8730;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .movemenu button.type-Bug:hover {
+  background: #222323;
+  border-color: #7e8730;
+  color: #7e8730;
+  text-shadow: 0px 0px 2px #000;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.dark .backdrop {
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  top: -90px;
+  left: -50px;
+  opacity: 1 !important;
+}
+
+.dark .backdrop:after {
+  display: inline-block;
+  content: "";
+  background: url(
+      https://st2.depositphotos.com/1616496/8058/i/950/depositphotos_80581754-stock-photo-stormy-waters.jpg
+    )no-repeatfixed;
+  position: absolute;
+  background-position: -60px -20px;
+  width: 700px;
+  height: 500px;
+  opacity: 1 !important;
+}
+
+.dark .challenge {
+  border: #000000;
+  background: #363636;
+  color: #27408B;
+  text-shadow: 2px 0px 2px #000000;
+}
+
+.dark .challenge .select {
+  border-color: #000000;
+  background: #27408B;
+  color: #27408B;
+  text-shadow: 2px 0px 2px #000000;
+}
+
+.dark .challenge .select:hover {
+  background: #27408B;
+}
+
+.dark .challenge .select:disabled {
+  background: #27408B;
+}
+
+.dark .challenge .select.preselected,
+.challenge .select.preselected:disabled {
+  color: #27408B;
+}
+
+.dark .challenge .buttonbar button {
+  border: 1px solid #000000;
+  background: #27408B;
+  color: #27408B;
+  text-shadow: 2px 0px 2px #000000;
+  padding: 2px 5px;
+}
+
+.dark .challenge .buttonbar button:hover {
+  background: #27408B;
+}
+
+.dark .roomlist .picon {
+  background: url("https://pldh.net/media/pokecons_action/382.gif") no-repeat !important;
+}
+
+.dark .roomcounters .picon {
+  background: url("https://pldh.net/media/pokecons_action/382.gif") no-repeat !important;
+
+  /*****************************/
+  /* Ladder CSS */
+  /*****************************/
+}
+.ladder table,
+.ladder td,
+.ladder th {
+  border: 1px solid #336251;
+}
+
+.ladder th {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.ladder table {
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8) inset, 0px 0px 3px #000;
+}
+
+.ladder td {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/*****************************/
+/** Ladder CSS **/
+/*****************************/
+
+/*****************************/
+/* Credits CSS */
+/*****************************/
+
+.credits h2 {
+  color: #F26F2E;
+}
+
+.credits ul {
+  color: #F26F2E;
+}
+
+a.subtle,
+.credits ul li p {
+  color: #336251;
+}
+
+a.subtle:hover {
+  color: #F26F2E;
+}
+
+.credits li small,
+.ps-popup.credits small {
+  color: #BBB;
+}
+
+/*****************************/
+/** Credits CSS **/
+/*****************************/
+
+.ps-room .battle-controls {
+  background: transparent !important;
+  top: 430px !important;
+}
+
+/* COLORS START */ /* COLORS START */
+[class$="chatmessage-nightofschiffer"] strong,
+[class$="chatmessage-nightofschiffer mine"] strong,
+[class$="chatmessage-nightofschiffer highlighted"] strong,
+[id$="-userlist-user-nightofschiffer"] strong em,
+[id$="-userlist-user-nightofschiffer"] strong,
+[id$="-userlist-user-nightofschiffer"] span {
+  color: #fff !important;
+}
+/* COLORS END */ /* ICONS START */
+#lobby-userlist-user-luksth,
+#staff-userlist-user-luksth,
+#youbanistan-userlist-user-luksth {
+  background: url("https://i.pinimg.com/originals/a0/80/71/a0807109f67d8f5a401fe4c232c15280.gif")
+    no-repeat right;
+}
+/* ICONS END */
+/* ICONS START */
+#lobby-userlist-user-luksth,
+#staff-userlist-user-luksth,
+#youbanistan-userlist-user-luksth {
+  background: url("https://i.pinimg.com/originals/a0/80/71/a0807109f67d8f5a401fe4c232c15280.gif")
+    no-repeat right;
+}
+#lobby-userlist-user-kodii,
+#staff-userlist-user-kodii,
+#youbanistan-userlist-user-kodii {
+  background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1f8c7cee-acc4-4ca1-955d-1fab58640994/d754qqu-f65c1463-850d-4d30-906e-9dddd8be7e54.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFmOGM3Y2VlLWFjYzQtNGNhMS05NTVkLTFmYWI1ODY0MDk5NFwvZDc1NHFxdS1mNjVjMTQ2My04NTBkLTRkMzAtOTA2ZS05ZGRkZDhiZTdlNTQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.3x6AxCLOp6z28C9ZZZ3R4DfFE2GtmEjc9SnOC2f2CNw")
+    no-repeat right;
+}
+/* ICONS END */
+/* COLORS START */
+[class$="chatmessage-aflyingphantom"] strong,
+[class$="chatmessage-aflyingphantom mine"] strong,
+[class$="chatmessage-aflyingphantom highlighted"] strong,
+[id$="-userlist-user-aflyingphantom"] strong em,
+[id$="-userlist-user-aflyingphantom"] strong,
+[id$="-userlist-user-aflyingphantom"] span {
+  color: #FFF !important;
+}
+[class$="chatmessage-princesky"] strong,
+[class$="chatmessage-princesky mine"] strong,
+[class$="chatmessage-princesky highlighted"] strong,
+[id$="-userlist-user-princesky"] strong em,
+[id$="-userlist-user-princesky"] strong,
+[id$="-userlist-user-princesky"] span {
+  color: #C83590 !important;
+}
+[class$="chatmessage-marlontogedemaru"] strong,
+[class$="chatmessage-marlontogedemaru mine"] strong,
+[class$="chatmessage-marlontogedemaru highlighted"] strong,
+[id$="-userlist-user-marlontogedemaru"] strong em,
+[id$="-userlist-user-marlontogedemaru"] strong,
+[id$="-userlist-user-marlontogedemaru"] span {
+  color: #D8BFD8 !important;
+}
+[class$="chatmessage-pokemon1920"] strong,
+[class$="chatmessage-pokemon1920 mine"] strong,
+[class$="chatmessage-pokemon1920 highlighted"] strong,
+[id$="-userlist-user-pokemon1920"] strong em,
+[id$="-userlist-user-pokemon1920"] strong,
+[id$="-userlist-user-pokemon1920"] span {
+  color: #FF8C00 !important;
+}
+[class$="chatmessage-luksth"] strong,
+[class$="chatmessage-luksth mine"] strong,
+[class$="chatmessage-luksth highlighted"] strong,
+[id$="-userlist-user-luksth"] strong em,
+[id$="-userlist-user-luksth"] strong,
+[id$="-userlist-user-luksth"] span {
+  color: #DC143C !important;
+}
+[class$="chatmessage-kawaky"] strong,
+[class$="chatmessage-kawaky mine"] strong,
+[class$="chatmessage-kawaky highlighted"] strong,
+[id$="-userlist-user-kawaky"] strong em,
+[id$="-userlist-user-kawaky"] strong,
+[id$="-userlist-user-kawaky"] span {
+  color: #ff8ac4 !important;
+}
+/* COLORS END */
+/*Chat colors start*/
+.chat.chatmessage-hyyko em {
+  color: #7B68EE;
+}
